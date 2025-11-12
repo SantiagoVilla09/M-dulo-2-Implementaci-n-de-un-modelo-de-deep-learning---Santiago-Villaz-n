@@ -1,0 +1,12 @@
+tensorflow-macos==2.16.2
+tensorflow-metal==1.2.0
+keras==3.*
+numpy
+pandas
+matplotlib
+scikit-learn
+opencv-python
+Pillow
+jupyter
+ipykernel
+kaggle

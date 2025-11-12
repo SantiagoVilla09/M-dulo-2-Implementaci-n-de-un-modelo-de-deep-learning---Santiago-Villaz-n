@@ -1,0 +1,9 @@
+#!/bin/sh
+'''exec' "/Users/santiagovillazon/Documents/7imo Semestre ITC/Ultimas 12 Semanas/M-dulo-2-Implementaci-n-de-un-modelo-de-deep-learning---Santiago-Villaz-n/TareaKron/bin/python3.12" "$0" "$@"
+' '''
+import sys
+from charset_normalizer.cli import cli_detect
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(cli_detect())
