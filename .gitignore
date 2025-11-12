@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+
+.DS_Store
+
 # C extensions
 *.so
 
@@ -140,6 +143,8 @@ celerybeat.pid
 .venv
 env/
 venv/
+# Entorno virtual local
+TareaKron/
 ENV/
 env.bak/
 venv.bak/
